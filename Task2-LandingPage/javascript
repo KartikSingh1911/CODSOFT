@@ -1,0 +1,19 @@
+// Smooth scrolling for navigation
+document.querySelectorAll("nav ul li a").forEach(link => {
+  link.addEventListener("click", e => {
+    e.preventDefault();
+    document.querySelector(link.getAttribute("href"))
+      .scrollIntoView({ behavior: "smooth" });
+  });
+});
+
+// Scroll reveal animations
+const sections = document.querySelectorAll("section");
+window.addEventListener("scroll", () => {
+  sections.forEach(sec => {
+    const rect = sec.getBoundingClientRect();
+    if (rect.top < window.innerHeight - 100) {
+      sec.classList.add("visible");
+    }
+  });
+});
