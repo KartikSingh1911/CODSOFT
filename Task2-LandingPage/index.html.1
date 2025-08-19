@@ -7,55 +7,75 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">Kartik Enterprises</h1>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- Hero Section -->
   <section id="hero">
     <div class="hero-content">
-      <h1>Welcome to Kartik Enterprises</h1>
-      <p>Your trusted partner for innovative web solutions</p>
+      <h2>Welcome to <span>Kartik Enterprises</span></h2>
+      <p>We build modern solutions for your business success 🚀</p>
       <a href="#services" class="btn">Explore Services</a>
     </div>
   </section>
 
-  <!-- Services -->
- <section id="services">
-  <h2>Our Services</h2>
-  <div class="service-container">
-    <div class="service">
-      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Web Development">
-      <h3>Web Development</h3>
-      <p>We create responsive, fast, and secure websites to grow your business.</p>
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="service-container">
+      <div class="service">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>Responsive, fast, and secure websites to grow your business.</p>
+      </div>
+      <div class="service">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="App Design">
+        <h3>App Design</h3>
+        <p>Modern and user-friendly mobile app designs to engage your customers.</p>
+      </div>
+      <div class="service">
+        <img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=600&q=80" alt="Consulting">
+        <h3>Consulting</h3>
+        <p>Expert advice and strategies tailored to your company’s needs.</p>
+      </div>
     </div>
-    <div class="service">
-      <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="App Design">
-      <h3>App Design</h3>
-      <p>Modern and user-friendly mobile app designs to engage your customers.</p>
-    </div>
-    <div class="service">
-      <img src="https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=600&q=80" alt="Consulting">
-      <h3>Consulting</h3>
-      <p>Expert advice and strategies tailored to your company’s needs.</p>
-    </div>
-  </div>
-</section>
-
-  <!-- Call to Action -->
-  <section id="cta">
-    <h2>Ready to work with us?</h2>
-    <a href="#contact" class="btn">Get in Touch</a>
   </section>
 
-  <!-- Contact -->
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At Kartik Enterprises, we are passionate about delivering high-quality digital solutions. 
+      Our mission is to help businesses scale and achieve their goals with cutting-edge technology and professional expertise.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact Us</h2>
-    <p>Email: <a href="mailto:kartik.k191156@gmail.com">kartik.k191156@gmail.com</a></p>
-    <p>Phone: +91 7289923202</p>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>© 2025 Kartik Enterprises. All rights reserved.</p>
+    <p>© 2025 Kartik Enterprises | All Rights Reserved</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
